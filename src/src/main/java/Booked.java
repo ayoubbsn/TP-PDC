@@ -14,5 +14,10 @@ public class Booked extends IState{
         return false;
     }
 
-
+    public boolean confirmbook(){
+        this.room.state = new occupied();
+    }
+    public boolean deletebook(){
+        this.room.state = new Empty();
+    }
 }
