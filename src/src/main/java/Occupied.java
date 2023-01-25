@@ -11,7 +11,7 @@ public class Occupied implements IState{
     }
 
     @Override
-    public Double calculatePrice() {
-        return null;
+    public boolean dellocate() {
+        return false;
     }
 }

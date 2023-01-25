@@ -12,7 +12,7 @@ public class Booked implements IState{
     }
 
     @Override
-    public Double calculatePrice() {
-        return null;
+    public boolean dellocate() {
+        return false;
     }
 }
