@@ -12,6 +12,7 @@ public class Occupied implements IState{
 
     @Override
     public boolean dellocate() {
-        return false;
+        this.room.setstate(new Empty(););
+
     }
 }

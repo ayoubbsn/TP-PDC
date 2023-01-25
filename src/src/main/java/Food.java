@@ -10,10 +10,10 @@ public class Food {
     }
 
     public int getQuantity() {
-        return quantity;
+        return this.quantity;
     }
 
     public double getPrice() {
-        return price;
+        return this.price;
     }
 }

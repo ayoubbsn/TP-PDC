@@ -8,4 +8,14 @@ public class SingleRoom extends AbstractRoom{
     public double calculatePrice() {
         return 0;
     }
+    @Override
+    public void setstate(IState state){
+        super.state = state;
+    }
+    public void resetpersonne(){
+        super.firstPerson = null;
+        if (instanceof(super.room)==Doubleroom){
+            this.secondPerson = null;
+        }
+    }
 }

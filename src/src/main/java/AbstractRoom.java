@@ -12,5 +12,7 @@ public abstract class AbstractRoom {
     public abstract double calculatePrice();
     public IType getType(){return this.type;}
     public IState getState(){return this.state;}
+    public void setstate(String state){};
+    public void resetperson(){};
 
 }
