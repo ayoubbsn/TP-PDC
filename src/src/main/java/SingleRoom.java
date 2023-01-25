@@ -14,8 +14,5 @@ public class SingleRoom extends AbstractRoom{
     }
     public void resetpersonne(){
         super.firstPerson = null;
-        if (instanceof(super.room)==Doubleroom){
-            this.secondPerson = null;
-        }
     }
 }

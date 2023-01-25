@@ -1,6 +1,4 @@
-public class Booked implements IState{
-
-    private AbstractRoom room;
+public class Booked extends IState{
 
     public Booked(AbstractRoom room) {
         this.room = room;
@@ -15,4 +13,6 @@ public class Booked implements IState{
     public boolean dellocate() {
         return false;
     }
+
+
 }

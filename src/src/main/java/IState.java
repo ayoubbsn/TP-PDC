@@ -1,4 +1,7 @@
-public interface IState {
-    boolean book(); // returns true if the book was completed
+public abstract class IState {
+    protected room chambre;
+    boolean book();// returns true if the book was completed
     boolean dellocate();
+
+
 }

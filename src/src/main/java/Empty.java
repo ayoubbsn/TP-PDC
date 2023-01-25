@@ -1,8 +1,7 @@
-public class Empty implements IState{
-    private  AbstractRoom room;
+public class Empty extends IState{
 
     public Empty(AbstractRoom room) {
-        this.room = room;
+        super.room = room;
     }
 
     @Override

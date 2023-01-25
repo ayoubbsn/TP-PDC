@@ -9,4 +9,9 @@ public class DoubleRoom extends AbstractRoom {
     public double calculatePrice() {
         return 0;
     }
+
+    public void resetpersonne(){
+        super.firstPerson = null;
+        this.secondPerson = null;
+    }
 }
