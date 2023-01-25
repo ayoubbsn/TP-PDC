@@ -1,7 +1,7 @@
 public abstract class IState {
-    protected room chambre;
-    boolean book();// returns true if the book was completed
-    boolean dellocate();
+    protected AbstractRoom chambre;
+    abstract boolean book();// returns true if the book was completed
+    abstract boolean dellocate();
 
 
 }

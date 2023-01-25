@@ -1,7 +1,7 @@
 public class Empty extends IState{
 
     public Empty(AbstractRoom room) {
-        super.room = room;
+        super.chambre = room;
     }
 
     @Override
