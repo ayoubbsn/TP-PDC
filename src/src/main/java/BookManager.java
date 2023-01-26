@@ -5,8 +5,8 @@ import java.util.List;
 public class BookManager {
     private static BookManager instance;
 
-    List<AbstractRoom> listofRooms ;
-    List<Person> listOfpersons ;
+    List<AbstractRoom> listofRooms;
+
     private BookManager() {
         // The following code emulates slow initialization.
         try {
@@ -14,14 +14,23 @@ public class BookManager {
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
-        this.listOfpersons = new ArrayList<Person>();
         this.listofRooms = new ArrayList<AbstractRoom>();
     }
+
     public static BookManager getInstance(String value) {
         if (instance == null) {
             instance = new BookManager();
         }
         return instance;
+    }
+
+    public void addChambreLuxury(int persons, Person person) {
+        if (persons == 1) {
+            Luxury luxtype = new Luxury().;
+            AbstractRoom newroom = new SingleRoom(person,)
+        } else if (persons == 2) {
+
+        }
     }
 
 }

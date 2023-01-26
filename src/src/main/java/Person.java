@@ -5,15 +5,15 @@ public class Person {
     private String name ;
     private Integer number ;
     private char gender ; // male or female
-    List<Orders> orders ;
+    List<OrderFood> orders ;
 
     public Person(String name, Integer number, char gender) {
         this.name = name;
         this.number = number;
         this.gender = gender;
-        this.orders = new ArrayList<Orders>();
+        this.orders = new ArrayList<OrderFood>();
     }
-    public void addFood(Orders order){
+    public void addFood(OrderFood order){
         this.orders.add(order);
     }
 
